@@ -24,7 +24,7 @@ data "aws_ami" "rhel9" {
 
 variable "cluster_name" {
   type        = string
-  default     = "mhs"
+  default     = "db-rosa-clstr"
   description = "ROSA cluster name"
 }
 
