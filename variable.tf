@@ -30,13 +30,13 @@ variable "cluster_name" {
 
 variable "region" {
   type        = string
-  default     = "us-east-2"
+  default     = "ap-south-1"
   description = "ROSA cluster region"
 }
 
 variable "availability_zones" {
   type        = list
-  default     = ["us-east-2a", "us-east-2b", "us-east-2c"]
+  default     = ["ap-south-1a", "ap-south-1b", "ap-south-1c"]
   description = "ROSA cluster availability zones"
 }
 
